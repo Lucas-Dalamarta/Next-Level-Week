@@ -6,16 +6,15 @@ import "./styles.css";
 
 import logo from "../../assets/logo.svg";
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <div id="page-home">
       <div className="content">
         <header>
-          <img src={logo} alt="Ecoleta" />
+          <img src={logo} />
         </header>
-
         <main>
-          <h1>Seu marketplace de coleta de resíduos</h1>
+          <h1>Seu marketplace de coleta de resíduos.</h1>
           <p>
             Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.
           </p>
